@@ -1,0 +1,60 @@
+img{
+    width: 40px;
+    height: 40xp;
+}
+.mylabel1{
+    font-size: 18px;
+}
+
+
+
+.mylabel2{
+    font-size: 18px;
+}
+
+.MyText{
+    height: 28px;
+    font-size: 18px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(179, 12, 12);
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.MyText:hover{
+    border: 2px solid yellow;
+}
+.mybutton{
+    height: 35px;
+    background-color: rgb(47, 48, 47);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.holder{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    gap: 15px
+    ;
+}
+
+.mybutton:hover{
+    background-color: green;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+}
+p.under-bu{
+    font-size: 20px;
+    margin: 0px;
+}
+p.under-bu a{
+    text-decoration: none;
+    color: grey;
+
+}
+p.under-bu a:hover{
+    color: green;
+}
